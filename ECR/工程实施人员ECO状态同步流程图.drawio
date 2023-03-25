@@ -1,9 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T14:35:30.755Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" version="21.1.1" etag="Gm2FXhg-sfg0hyeUfgeT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T14:43:45.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="qAizraEtEBk4sm2B9o-e" version="21.1.1" type="github">
   <diagram name="第 1 页" id="uBlgRFIY1XHlB8bryxr7">
-    <mxGraphModel>
+    <mxGraphModel dx="1314" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ch1BfoKEqLtnvXCTVAXw-1" target="ch1BfoKEqLtnvXCTVAXw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-1" value="当Capital中设计状态发生版本变更时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ch1BfoKEqLtnvXCTVAXw-3" target="ch1BfoKEqLtnvXCTVAXw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-3" value="触发数据同步钩子" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ch1BfoKEqLtnvXCTVAXw-5" target="ch1BfoKEqLtnvXCTVAXw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-9" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ch1BfoKEqLtnvXCTVAXw-8">
+          <mxGeometry x="-0.2125" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-10" value="失败，等待再次更新数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ch1BfoKEqLtnvXCTVAXw-5" target="ch1BfoKEqLtnvXCTVAXw-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="420" />
+              <mxPoint x="540" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-5" value="同步状态" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1BfoKEqLtnvXCTVAXw-7" value="ECO状态更新" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
