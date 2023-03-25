@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T17:34:49.392Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" version="21.1.1" etag="1iNo2Hw9n03QdQgXtrJS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T17:38:09.521Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="xLVmMZZLrk0-fSs1k5Xu" version="21.1.1" type="github">
   <diagram name="第 1 页" id="pnmah_Ox5MKyfVHV5Jvz">
-    <mxGraphModel>
+    <mxGraphModel dx="589" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cBuqAYGh9rQtrvf5c2a0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cBuqAYGh9rQtrvf5c2a0-3" target="cBuqAYGh9rQtrvf5c2a0-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="550" as="sourcePoint" />
+            <mxPoint x="620" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBuqAYGh9rQtrvf5c2a0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cBuqAYGh9rQtrvf5c2a0-3" target="cBuqAYGh9rQtrvf5c2a0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBuqAYGh9rQtrvf5c2a0-3" value="项目实施人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cBuqAYGh9rQtrvf5c2a0-28" value="拾取ECO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="660" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cBuqAYGh9rQtrvf5c2a0-29" value="同步ECO状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="560" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cBuqAYGh9rQtrvf5c2a0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cBuqAYGh9rQtrvf5c2a0-31" target="cBuqAYGh9rQtrvf5c2a0-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBuqAYGh9rQtrvf5c2a0-31" value="查看ECR" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="560" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
