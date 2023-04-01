@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T08:16:39.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.15" etag="eyYbjNYrBn7s01gzEmwq" version="21.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-01T08:17:25.226Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.15" etag="ul4B0FreifCMKdMMQMDy" version="21.1.2" type="github" pages="3">
   <diagram name="系统架构图" id="ZQs92ldU1HahN9TC48GJ">
     <mxGraphModel dx="644" dy="1589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,6 +170,14 @@
         <mxCell id="pmRhkusY1kSccSdVMbLQ-31" value="同步ECO状态" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-207.5" y="917" width="140" height="45" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="I480zKkxICOchOtbmo30" name="系统管理员功能模块图">
+    <mxGraphModel dx="483" dy="892" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
